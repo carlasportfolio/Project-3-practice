@@ -1,0 +1,17 @@
+/*Form Header Styles****************/
+header {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 25px;
+}
+.hr-header1 {
+  margin: 0 12px;
+  border-top: 5px solid;
+  max-width: 100%;
+}
+.hr-header2,
+.hr-newsletter {
+  margin: 2.2px 12px;
+  border-top: 2.5px solid;
+  max-width: 100%;
+}

@@ -1,0 +1,84 @@
+/*---------------------------------------------------------
+ Contents
+-----------------------------------------------------------
+1.Notes
+2.General Styles
+3.Structure
+-------------------------------------------------------- */
+
+/*---------------------------------------------------------
+ 1.Notes
+-----------------------------------------------------------
+This project was created using Flexbox with a mobile-first approach.
+-----------------------------------------------------------
+Styles are organized and structured for the following four (4) sections:
+  a. header
+  b. contact
+  c. newsletter
+  d. footer
+-----------------------------------------------------------
+The DRY method is used.
+-----------------------------------------------------------
+  *A style that is written in one section will not be repeated in another section unless it is absolutely necessary for better clarity and/or readability.
+-----------------------------------------------------------
+The following references were used to create custom checkboxes: https://paulund.co.uk/how-to-style-a-checkbox-with-css
+https://www.youtube.com/watch?v=cXVbsTT5gU8
+https://www.youtube.com/watch?v=r3HX2bMIzOc
+-----------------------------------------------------------
+The following reference was used to create custom radio buttons:
+https://www.youtube.com/watch?v=QosvttnEAD4
+-----------------------------------------------------------
+-------------------------------------------------------- */
+
+/*---------------------------------------------------------
+ 2.General Styles
+-----------------------------------------------------------
+
+-------------------------------------------------------- */
+
+/*---------------------------------------------------------
+ 3.Notes
+-----------------------------------------------------------
+
+-------------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #32424a;
+}
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.7em;
+  color: #fff;
+  background: #32424a;
+  padding: 25px 25px;
+}
+h2 {
+  margin-top: 42px;
+  margin-bottom: 11px;
+}
+p {
+  font-size: 1.2rem;
+}
+
+
+
+/*Media Query********************/
+@media (min-width: 768px) {
+  .contact {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+  }
+  .more-space {
+    min-width: 75%;
+  }
+}
